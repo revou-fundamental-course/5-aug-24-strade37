@@ -1,3 +1,8 @@
+
+.main-title {
+    text-align: center;
+}
+
 main {
     display: flex;
 }
@@ -6,4 +11,40 @@ form {
     border: 1px solid;
     padding: 12px;
     background-color: azure;
+}
+
+aside {
+    padding: 48px;
+}
+
+.form-btn-container{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.button {
+    border: 1px;
+    height: 32px;
+    background-color: cornsilk;
+    border-radius: 4px;
+}
+
+.bg-cornsilk{
+    background-color: cornsilk;
+}
+
+.bg-reset {
+    background-color: red;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
 }
