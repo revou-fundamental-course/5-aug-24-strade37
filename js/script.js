@@ -1,6 +1,2 @@
+console.log('linked')
 
-
-
-function formValidation() {
-    let inputWeight = document.getElementById('input-berat').ariaValueMax;
-}
